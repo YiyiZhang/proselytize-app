@@ -18,12 +18,17 @@
   font-size: large;
 }
 
-.About h2 {
+.About h2.std {
   color: red;
 }
 
 .About h2.alt {
   color: blue;
+}
+
+.Proselytize h1.Main-heading {
+  font-size: 20px;
+  color: orange;
 }
 
 @keyframes App-logo-spin {
