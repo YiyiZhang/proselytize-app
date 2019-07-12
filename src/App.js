@@ -15,11 +15,11 @@ class App extends Component {
 
   //function that selects the correct component to render based on menu item clicked
   showSection = () => {
-    if (this.state.currentSection === 'proselytize'){
+    if (this.state.currentSection === 'Proselytize'){
       return <Proselytize />
-    } else if (this.state.currentSection === 'about'){
+    } else if (this.state.currentSection === 'About'){
       return <About />
-    } else if (this.state.currentSection === 'projects'){
+    } else if (this.state.currentSection === 'Projects'){
       return <p>projects will load here once project component is made</p>
     }
   }
@@ -38,7 +38,7 @@ class App extends Component {
           <h2>QUESTIONABLE INTENT GAMES</h2>
         </div>
 
-        <Menu />
+        <Menu updater={this.updateSection}/>
 
         {this.showSection()}
 
