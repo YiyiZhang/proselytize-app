@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 
 class About extends Component{
 
-state={
+state = {
 	color: 'std'
 }
 
 	changeColor = () => {
-		if(this.state.color == 'std'){
+		if(this.state.color === 'std'){
 			this.setState({color: 'alt'})			
 		} else {
 			this.setState({color: 'std'})
