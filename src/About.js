@@ -14,7 +14,7 @@ state = {
 		}
 	}
 
-	render() {
+	render = () => {
 		return (
 			<div className="About" onClick={this.changeColor}>
 				<h2 className={this.state.color}>This is about us.</h2>
