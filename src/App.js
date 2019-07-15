@@ -37,11 +37,17 @@ class App extends Component {
 
         <div className="App-header">
 
-          <Menu updater={this.updateSection}/> //Menu
+          <Menu updater={this.updateSection}/>
 
-          <img src={logo} className="App-logo" alt="logo" />
-          
-          <h2>QUESTIONABLE INTENT GAMES</h2>
+          <div className="circle">
+
+            <img src={logo} className="App-logo" alt="logo" />
+            
+            <h1>QUESTIONABLE INTENT GAMES</h1>
+
+          </div>
+
+
         </div>
 
         {this.showSection()}

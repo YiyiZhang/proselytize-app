@@ -2,10 +2,27 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.circle {
+  margin: auto;
+  background-color: black;
+  width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
+
+.circle h1 {
+  color: orange;
+}
+
+.App-logo {
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 150px;
+}
+
+/*@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}*/
 
 .App-header {
   background-color: orange;
@@ -25,11 +42,6 @@
 .Proselytize h1.Main-heading {
   font-size: 20px;
   color: orange;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
 
 /*Menu Styling*/
