@@ -32,13 +32,17 @@ class App extends Component {
   //render needs to be the last function in every Component
   render = () => {
     return (
+
       <div className="App">
+
         <div className="App-header">
+
+          <Menu updater={this.updateSection}/> //Menu
+
           <img src={logo} className="App-logo" alt="logo" />
+          
           <h2>QUESTIONABLE INTENT GAMES</h2>
         </div>
-
-        <Menu updater={this.updateSection}/>
 
         {this.showSection()}
 
